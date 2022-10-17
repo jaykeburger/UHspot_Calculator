@@ -24,9 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
     public EditText e1, e2;
     TextView t1;
-    int num1, num2;
+    int num1, num2, num3;
 
     public boolean getNumbers() {
+        num3 = 4;
         //checkAndClear();
         // defining the edit text 1 to e1
         e1 = (EditText) findViewById(R.id.num1);
